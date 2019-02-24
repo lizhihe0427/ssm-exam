@@ -7,15 +7,25 @@ package com.itheima.domain;
  */
 
 public class Test {
+    public User user;
 
-    private String testName;
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 
     @Override
     public String toString() {
         return "Test{" +
-                "testName='" + testName + '\'' +
+                "user=" + user +
+                ", testName='" + testName + '\'' +
                 '}';
     }
+
+    private String testName;
 
     public String getTestName() {
         return testName;
