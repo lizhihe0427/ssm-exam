@@ -9,7 +9,7 @@ package com.itheima.domain;
 public class Test {
     public User user;
 
-    public User getUser() {
+    public User getUser() {//测试添加
         return user;
     }
 
